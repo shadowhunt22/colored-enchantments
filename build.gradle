@@ -115,7 +115,7 @@ tasks.register('checkstyleAll', Checkstyle) {
 // publishing
 
 def minecraft_versions = [
-		"1.21.2-pre1"
+		"1.21.2"
 ]
 
 static def forVersion(String first, String last) {
